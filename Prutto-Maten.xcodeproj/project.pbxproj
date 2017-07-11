@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8026E8DB1BA0BBB600BE612F /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8026E8DA1BA0BBB600BE612F /* Gradient.swift */; };
+		806D944C1B9F6357003D5821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D944B1B9F6357003D5821 /* AppDelegate.swift */; };
+		806D944E1B9F6357003D5821 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 806D944D1B9F6357003D5821 /* GameScene.sks */; };
+		806D94501B9F6357003D5821 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D944F1B9F6357003D5821 /* GameScene.swift */; };
+		806D94521B9F6357003D5821 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D94511B9F6357003D5821 /* GameViewController.swift */; };
+		806D94551B9F6357003D5821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806D94531B9F6357003D5821 /* Main.storyboard */; };
+		806D94571B9F6357003D5821 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806D94561B9F6357003D5821 /* Images.xcassets */; };
+		806D945A1B9F6357003D5821 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 806D94581B9F6357003D5821 /* LaunchScreen.xib */; };
+		806D947B1B9F6457003D5821 /* f1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 806D946F1B9F6457003D5821 /* f1.wav */; };
+		806D947D1B9F6457003D5821 /* f3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 806D94711B9F6457003D5821 /* f3.wav */; };
+		806D947E1B9F6457003D5821 /* f4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 806D94721B9F6457003D5821 /* f4.wav */; };
+		806D947F1B9F6457003D5821 /* f5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 806D94731B9F6457003D5821 /* f5.wav */; };
+		806D94801B9F6457003D5821 /* f6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 806D94741B9F6457003D5821 /* f6.wav */; };
+		806D94811B9F6457003D5821 /* f7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 806D94751B9F6457003D5821 /* f7.wav */; };
+		806D94821B9F6457003D5821 /* f8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 806D94761B9F6457003D5821 /* f8.wav */; };
+		806D94831B9F6457003D5821 /* f9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 806D94771B9F6457003D5821 /* f9.wav */; };
+		806D94841B9F6457003D5821 /* f10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 806D94781B9F6457003D5821 /* f10.wav */; };
+		806D94851B9F6457003D5821 /* f11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 806D94791B9F6457003D5821 /* f11.wav */; };
+		806D94861B9F6457003D5821 /* f12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 806D947A1B9F6457003D5821 /* f12.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		806D94601B9F6357003D5821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 806D943E1B9F6357003D5821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806D94451B9F6357003D5821;
+			remoteInfo = "Prutto-Maten";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8026E8DA1BA0BBB600BE612F /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		806D94461B9F6357003D5821 /* Prutto-Maten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prutto-Maten.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806D944A1B9F6357003D5821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806D944B1B9F6357003D5821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		806D944D1B9F6357003D5821 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		806D944F1B9F6357003D5821 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		806D94511B9F6357003D5821 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		806D94541B9F6357003D5821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		806D94561B9F6357003D5821 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		806D94591B9F6357003D5821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		806D946F1B9F6457003D5821 /* f1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f1.wav; sourceTree = "<group>"; };
+		806D94711B9F6457003D5821 /* f3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f3.wav; sourceTree = "<group>"; };
+		806D94721B9F6457003D5821 /* f4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f4.wav; sourceTree = "<group>"; };
+		806D94731B9F6457003D5821 /* f5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f5.wav; sourceTree = "<group>"; };
+		806D94741B9F6457003D5821 /* f6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f6.wav; sourceTree = "<group>"; };
+		806D94751B9F6457003D5821 /* f7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f7.wav; sourceTree = "<group>"; };
+		806D94761B9F6457003D5821 /* f8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f8.wav; sourceTree = "<group>"; };
+		806D94771B9F6457003D5821 /* f9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f9.wav; sourceTree = "<group>"; };
+		806D94781B9F6457003D5821 /* f10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f10.wav; sourceTree = "<group>"; };
+		806D94791B9F6457003D5821 /* f11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f11.wav; sourceTree = "<group>"; };
+		806D947A1B9F6457003D5821 /* f12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = f12.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806D94431B9F6357003D5821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806D945C1B9F6357003D5821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		806D943D1B9F6357003D5821 = {
+			isa = PBXGroup;
+			children = (
+				806D94481B9F6357003D5821 /* Prutto-Maten */,
+				806D94471B9F6357003D5821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		806D94471B9F6357003D5821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806D94461B9F6357003D5821 /* Prutto-Maten.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806D94481B9F6357003D5821 /* Prutto-Maten */ = {
+			isa = PBXGroup;
+			children = (
+				806D944B1B9F6357003D5821 /* AppDelegate.swift */,
+				806D944D1B9F6357003D5821 /* GameScene.sks */,
+				806D944F1B9F6357003D5821 /* GameScene.swift */,
+				806D94511B9F6357003D5821 /* GameViewController.swift */,
+				806D94531B9F6357003D5821 /* Main.storyboard */,
+				806D94561B9F6357003D5821 /* Images.xcassets */,
+				806D94581B9F6357003D5821 /* LaunchScreen.xib */,
+				806D94491B9F6357003D5821 /* Supporting Files */,
+				8026E8DA1BA0BBB600BE612F /* Gradient.swift */,
+			);
+			path = "Prutto-Maten";
+			sourceTree = "<group>";
+		};
+		806D94491B9F6357003D5821 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				806D946F1B9F6457003D5821 /* f1.wav */,
+				806D94711B9F6457003D5821 /* f3.wav */,
+				806D94721B9F6457003D5821 /* f4.wav */,
+				806D94731B9F6457003D5821 /* f5.wav */,
+				806D94741B9F6457003D5821 /* f6.wav */,
+				806D94751B9F6457003D5821 /* f7.wav */,
+				806D94761B9F6457003D5821 /* f8.wav */,
+				806D94771B9F6457003D5821 /* f9.wav */,
+				806D94781B9F6457003D5821 /* f10.wav */,
+				806D94791B9F6457003D5821 /* f11.wav */,
+				806D947A1B9F6457003D5821 /* f12.wav */,
+				806D944A1B9F6357003D5821 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806D94451B9F6357003D5821 /* Prutto-Maten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806D94691B9F6357003D5821 /* Build configuration list for PBXNativeTarget "Prutto-Maten" */;
+			buildPhases = (
+				806D94421B9F6357003D5821 /* Sources */,
+				806D94431B9F6357003D5821 /* Frameworks */,
+				806D94441B9F6357003D5821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prutto-Maten";
+			productName = "Prutto-Maten";
+			productReference = 806D94461B9F6357003D5821 /* Prutto-Maten.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		806D943E1B9F6357003D5821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Lars Bergqvist";
+				TargetAttributes = {
+					806D94451B9F6357003D5821 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = M28QYJ452P;
+						LastSwiftMigration = 0830;
+					};
+					806D945E1B9F6357003D5821 = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0830;
+						TestTargetID = 806D94451B9F6357003D5821;
+					};
+				};
+			};
+			buildConfigurationList = 806D94411B9F6357003D5821 /* Build configuration list for PBXProject "Prutto-Maten" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 806D943D1B9F6357003D5821;
+			productRefGroup = 806D94471B9F6357003D5821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806D94451B9F6357003D5821 /* Prutto-Maten */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806D94441B9F6357003D5821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806D94831B9F6457003D5821 /* f9.wav in Resources */,
+				806D94821B9F6457003D5821 /* f8.wav in Resources */,
+				806D94801B9F6457003D5821 /* f6.wav in Resources */,
+				806D947D1B9F6457003D5821 /* f3.wav in Resources */,
+				806D94841B9F6457003D5821 /* f10.wav in Resources */,
+				806D947B1B9F6457003D5821 /* f1.wav in Resources */,
+				806D947F1B9F6457003D5821 /* f5.wav in Resources */,
+				806D945A1B9F6357003D5821 /* LaunchScreen.xib in Resources */,
+				806D94851B9F6457003D5821 /* f11.wav in Resources */,
+				806D947E1B9F6457003D5821 /* f4.wav in Resources */,
+				806D94571B9F6357003D5821 /* Images.xcassets in Resources */,
+				806D94861B9F6457003D5821 /* f12.wav in Resources */,
+				806D94811B9F6457003D5821 /* f7.wav in Resources */,
+				806D944E1B9F6357003D5821 /* GameScene.sks in Resources */,
+				806D94551B9F6357003D5821 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806D945D1B9F6357003D5821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806D94421B9F6357003D5821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806D94501B9F6357003D5821 /* GameScene.swift in Sources */,
+				806D94521B9F6357003D5821 /* GameViewController.swift in Sources */,
+				806D944C1B9F6357003D5821 /* AppDelegate.swift in Sources */,
+				8026E8DB1BA0BBB600BE612F /* Gradient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806D945B1B9F6357003D5821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		806D94611B9F6357003D5821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806D94451B9F6357003D5821 /* Prutto-Maten */;
+			targetProxy = 806D94601B9F6357003D5821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		806D94531B9F6357003D5821 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806D94541B9F6357003D5821 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		806D94581B9F6357003D5821 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806D94591B9F6357003D5821 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		806D94671B9F6357003D5821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		806D94681B9F6357003D5821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		806D946A1B9F6357003D5821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M28QYJ452P;
+				INFOPLIST_FILE = "Prutto-Maten/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		806D946B1B9F6357003D5821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M28QYJ452P;
+				INFOPLIST_FILE = "Prutto-Maten/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LB.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		806D94411B9F6357003D5821 /* Build configuration list for PBXProject "Prutto-Maten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806D94671B9F6357003D5821 /* Debug */,
+				806D94681B9F6357003D5821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806D94691B9F6357003D5821 /* Build configuration list for PBXNativeTarget "Prutto-Maten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806D946A1B9F6357003D5821 /* Debug */,
+				806D946B1B9F6357003D5821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 806D943E1B9F6357003D5821 /* Project object */;
+}
