@@ -71,22 +71,22 @@ class GameScene: SKScene, AVAudioPlayerDelegate {
     }
     
     func animateSprite() -> Void {
-        let impSize = 800*soundlengths[Int(nextSound)]
+        let len = soundlengths[Int(nextSound)]
+        self.physicsWorld.gravity = CGVector(dx: 0, dy: -9/len)
+        let impSize = 1200/5*len
+
         sprite.physicsBody?.applyImpulse(CGVector(dx: 0, dy: CGFloat(impSize)))
     }
+        
+    let sounds = ["f1","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12","g1","g2","g3","g4","g5","g6"]
+    let soundlengths = [5,1,3,2,5,4,2,4,3,1,1,2,4.0,2.1,2.5,2.2,1.5]
     
-    
-    
-    let sounds = ["f1","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12"]
-    let soundlengths = [1,3,1,2,1,1,1,3,1,2,2]
-    
-    var beepPlayer = AVAudioPlayer()
     
     var avPlayer = AVAudioPlayer()
     
     func playMySound(){
         let s = sounds[Int(nextSound)]
-        let url = URL(fileURLWithPath: Bundle.main.path(forResource: s, ofType: "wav")!)
+        let url = URL(fileURLWithPath: Bundle.main.path(forResource: s, ofType: "mp3")!)
         
         do {
             avPlayer = try AVAudioPlayer(contentsOf: url)
