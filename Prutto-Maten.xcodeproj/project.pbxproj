@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8026E8DB1BA0BBB600BE612F /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8026E8DA1BA0BBB600BE612F /* Gradient.swift */; };
+		805F7B692736C8480020A713 /* SmokeParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 805F7B672736C8480020A713 /* SmokeParticle.sks */; };
+		805F7B6A2736C8480020A713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805F7B682736C8480020A713 /* Assets.xcassets */; };
 		806D944C1B9F6357003D5821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D944B1B9F6357003D5821 /* AppDelegate.swift */; };
 		806D944E1B9F6357003D5821 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 806D944D1B9F6357003D5821 /* GameScene.sks */; };
 		806D94501B9F6357003D5821 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D944F1B9F6357003D5821 /* GameScene.swift */; };
@@ -36,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		8026E8DA1BA0BBB600BE612F /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		805F7B672736C8480020A713 /* SmokeParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmokeParticle.sks; sourceTree = "<group>"; };
+		805F7B682736C8480020A713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806D94461B9F6357003D5821 /* Prutto-Maten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prutto-Maten.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		806D944A1B9F6357003D5821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		806D944B1B9F6357003D5821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				806D94581B9F6357003D5821 /* LaunchScreen.xib */,
 				806D94491B9F6357003D5821 /* Supporting Files */,
 				8026E8DA1BA0BBB600BE612F /* Gradient.swift */,
+				805F7B672736C8480020A713 /* SmokeParticle.sks */,
+				805F7B682736C8480020A713 /* Assets.xcassets */,
 			);
 			path = "Prutto-Maten";
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 				80A1AE261F1557E500C43D25 /* f12.mp3 in Resources */,
 				80A1AE1C1F1557E500C43D25 /* f1.mp3 in Resources */,
 				80A1AE291F1557E500C43D25 /* g3.mp3 in Resources */,
+				805F7B6A2736C8480020A713 /* Assets.xcassets in Resources */,
 				80A1AE1D1F1557E500C43D25 /* f3.mp3 in Resources */,
 				806D945A1B9F6357003D5821 /* LaunchScreen.xib in Resources */,
 				80A1AE281F1557E500C43D25 /* g2.mp3 in Resources */,
@@ -205,6 +212,7 @@
 				80A1AE201F1557E500C43D25 /* f6.mp3 in Resources */,
 				80A1AE2A1F1557E500C43D25 /* g4.mp3 in Resources */,
 				80A1AE251F1557E500C43D25 /* f11.mp3 in Resources */,
+				805F7B692736C8480020A713 /* SmokeParticle.sks in Resources */,
 				80A1AE211F1557E500C43D25 /* f7.mp3 in Resources */,
 				806D94571B9F6357003D5821 /* Images.xcassets in Resources */,
 				80A1AE231F1557E500C43D25 /* f9.mp3 in Resources */,
